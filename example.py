@@ -13,7 +13,7 @@ my_headers = {
 
 if __name__ == '__main__':
     spy = WeiboSpy()
-    login_info = spy.login("18362983772", "950127zvk")
+    login_info = spy.login("18362983772", "********")
     print(login_info)
     spy.post_blog("不要同情自己，同情自己是卑劣懦夫干的勾当。")
     input()
